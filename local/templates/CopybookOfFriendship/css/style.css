@@ -936,13 +936,16 @@ a{
 	height: 20px;
 	margin: 0 10px;
 }
-.capabilities ul{
+.capability {
 	display: none;
-}
-.capabilities li{
 	font-family: OpenSans;
 	font-size: 12px;
 }
+
+.capability div {
+	margin-left: 10%;
+}
+
 /*open*/
 .open div{
 	display: inline-block;
