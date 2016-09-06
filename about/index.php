@@ -93,6 +93,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 						false
 					);?>
 				</div>
+				<div class="reviews block">
 					<?$APPLICATION->IncludeComponent("bitrix:news.list","letters",Array(
 					        "IBLOCK_ID" => "13",
 					        "NEWS_COUNT" => "4",
