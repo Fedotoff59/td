@@ -159,6 +159,15 @@ a{
 .menu a{
 	
 }
+
+.old_link {
+	font: 10pt OpenSans;
+	position: absolute;
+	top: 20px;
+	left: 130px;
+	zoom: 1;
+}
+
 .buttons li{
 	font: 10pt OpenSans;
 	display: inline-block;
