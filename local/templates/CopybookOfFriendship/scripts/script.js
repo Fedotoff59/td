@@ -15,8 +15,8 @@ $(document).ready(function(){
 		});
 	}
 	
-	function start_banner(banner_class, change_time){
-		var changing = setInterval(function(){changeSlide(banner_class)}, change_time);
+	function start_banner(banner_class, time){
+		var changing = setInterval(function(){changeSlide(banner_class)}, time);
 		$(banner_class+" .arrow").click(function(){
 			clearInterval(changing);
 			var img = $(this).hasClass('left')?prevImage(banner_class):nextImage(banner_class);
@@ -25,14 +25,21 @@ $(document).ready(function(){
 				$(".prev").removeClass();
 					$(".current").fadeIn(500);
 			});
-			changing = setInterval(function(){changeSlide(banner_class)}, change_time);
+			changing = setInterval(function(){changeSlide(banner_class)}, time);
 		});
 	}
 
 	start_banner('.mainpage', 10000);
 	start_banner('.about', 20000);
-	start_banner('.history', 10000);
-
+	start_banner('.history', 20000);
+	/*function create_navigation(){
+		$('.content').append('<div class="navigation"></div>');
+		$('.block').each(function(){
+			text = $(this).children('h1').text();
+			class = 
+			$('<a href="'++'">').appendTo('.navigation')
+		})
+	}*/
 	$(".news_block .arrow").click(function scroll(){
 		var page = $(this).attr('id').substr(6);
 		if (page != undefined && page != ''){
@@ -146,10 +153,10 @@ $(document).ready(function(){
 		});
 		return false;
 	});
-
-	$('.reviews a').click(function(){
+	$('.reviews a.readmore').click(function(){
 		//var id = $(this).children('.person').attr('id').substr(1,1);
 		/*здесь идет подгрузка информации по ajax по idшнику*/
+		/*
 		$('.lightbox').html('<div class="close"></div>'+
 			'<div class="lightbox_content"><img class="portrait" src="/img/astahov.png" alt="">'+
 			'<h2>Павел Астахов</h2>'+
@@ -158,13 +165,61 @@ $(document).ready(function(){
 		$('.lightbox').fadeIn(200);
 		$('.close').click(function(){
 			$('.lightbox').fadeOut(200);
-		});
+		});*/
 		return false;
-	})
+	});
+	$('.add a').click(function more_news(){
+		if ($(this).attr('id') == '' || $(this).attr('id') == undefined){
+			return false;
+		}
+		var page = $(this).attr('id').substr(6);
+		var code = $(this).parent('.add').attr('id');
+		var block = $(this).parents('.block');
+		var parent = $(this).parent('.add');
+		page++;
+		var template;
+		var news_count;
+		var ID;
+		switch(code){
+			case 'LETTERS':
+				news_count = 4;
+				template = 'letters';
+				fields = JSON.stringify([""]);
+				properties = JSON.stringify(["POSITION"]);
+				ID = 13;
+				break;
+			case 'STORIES':
+				news_count = 4;
+				template = 'stories';
+				fields = JSON.stringify(["PREVIEW_PICTURE"]);
+				properties = JSON.stringify(["SCHOOL", "CITY"]);
+				ID = 15;
+				break;
+		}
+		$.get(
+			"/ajax/list.php",
+			{
+				IBLOCK_ID: ID,
+				NEWS_COUNT: news_count,
+				TEMPLATE: template,
+				FIELDS: fields,
+				PROPERTIES: properties,
+				PAGEN_1: page
+			},
+			onSuccess
+		);
+		function onSuccess(data){
+			parent.remove();
+			$(block).append(data);
+			$('.readmore').click(show_lightbox);
+			$('.add a').click(more_news);
+		}
+		return false;
+	});
 	$('.success a').click(function(){
 		//var id = $(this).children('.person').attr('id').substr(1,1);
 		/*здесь идет подгрузка информации по ajax по idшнику*/
-		$('.lightbox').html('<div class="close"></div>'+
+		/*$('.lightbox').html('<div class="close"></div>'+
 			'<div class="lightbox_content"><img class="portrait" src="/img/dlaptev.png" alt="">'+
 			'<h2 class="success_story">Данил Лаптев<br />'+
 			'Школа №25 г. Пермь</h2>'+
@@ -172,9 +227,9 @@ $(document).ready(function(){
 		$('.lightbox').fadeIn(200);
 		$('.close').click(function(){
 			$('.lightbox').fadeOut(200);
-		});
+		});*/
 		return false;
-	})
+	});
 	$('.readmore').click(show_lightbox);
 	function show_lightbox(){
 		var element_code = $(this).attr('id');
@@ -193,6 +248,11 @@ $(document).ready(function(){
 			fields = JSON.stringify([]);
 			properties = JSON.stringify(["PHOTO", "VIDEO"]);
 		}
+		if ($(this).hasClass('letters')){
+			template = 'letters';
+			fields = JSON.stringify(["PREVIEW_PICTURE"]);
+			properties = JSON.stringify(["POSITION"]);
+		}
 		$.post(
 			"/ajax/detail.php",
 			{
@@ -205,4 +265,4 @@ $(document).ready(function(){
 		);
 		return false;
 	}
-})
+});

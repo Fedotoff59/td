@@ -4,6 +4,7 @@ $fields = json_decode($_REQUEST["FIELDS"]);
 $properties = json_decode($_REQUEST["PROPERTIES"]);
 $APPLICATION->IncludeComponent("bitrix:news.list",$_REQUEST['TEMPLATE'],Array(
 		"IBLOCK_ID" => $_REQUEST['IBLOCK_ID'],
+		"IBLOCK_CODE" => $_REQUEST['IBLOCK_CODE'],
 		"NEWS_COUNT" => $_REQUEST['NEWS_COUNT'],
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_ORDER1" => "DESC",

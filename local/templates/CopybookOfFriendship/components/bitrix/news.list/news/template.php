@@ -21,7 +21,9 @@ $page_count = $arResult['NAV_RESULT']->NavPageCount;
 	<div class="news" id="<?=$index?>">
 		<p class="date"><?echo $arItem["DISPLAY_ACTIVE_FROM"]?></p>
 		<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="">
-		<h2><?=$arItem["NAME"]?></h2>
+		<a href="#" id="<?=$arItem["CODE"]?>" class="readmore news_link">
+			<h2><?=$arItem["NAME"]?></h2>
+		</a>
 		<p class="text"><?echo $arItem["PREVIEW_TEXT"];?></p>
 		<a href="#" id="<?=$arItem["CODE"]?>" class="readmore news_link">
 			<p>читать далее</p></a>

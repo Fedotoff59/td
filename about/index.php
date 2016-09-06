@@ -93,70 +93,18 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 						false
 					);?>
 				</div>
-<?/*
-				<div class="docs block">
-					<div><h1>Документы</h1></div>
-					<a href='#'>
-						<div class="doc">
-							<img src="<?=SITE_SERVER_NAME?>/img/doc1.png" alt="">
-							<h2>Устав</h2>
-							<p>«Устав огранизации»</p>
-						</div>
-					</a>
-					<a href='#'>
-						<div class="doc">
-							<img src="<?=SITE_SERVER_NAME?>/img/ppt1.png" alt="">
-							<h2>Правила</h2>
-							<p>«Правила и традиции детско-молодежной общероссийской общественной организации «Тетрадка Дружбы»</p>
-						</div>
-					</a>
-					<a href='#'>
-						<div class="doc">
-							<img src="<?=SITE_SERVER_NAME?>/img/doc2.png" alt="">
-							<h2>Положение</h2>
-							<p>«Положение о ченстве в организации»</p>
-						</div>
-					</a>
-					<a href='#'>
-						<div class="doc">
-							<img src="<?=SITE_SERVER_NAME?>/img/ppt2.png" alt="">
-							<h2>Атрибутика</h2>
-							<p>«Отличительная атрибутика и знаи отличия членов и почетных членов детско-молодежной общероссийской общественной организации «Тетрадка дружбы»</p>
-						</div>
-					</a>
-					<div class="add"><a href="http://"><img src="<?=SITE_SERVER_NAME?>/img/add.png" alt=""></a></div>
+					<?$APPLICATION->IncludeComponent("bitrix:news.list","letters",Array(
+					        "IBLOCK_ID" => "13",
+					        "NEWS_COUNT" => "4",
+					        "SORT_BY1" => "ACTIVE_FROM",
+					        "SORT_ORDER1" => "DESC",
+					        "SORT_BY2" => "SORT",
+					        "SORT_ORDER2" => "ASC",
+					        "FILTER_NAME" => "",
+					        "FIELD_CODE" => Array("ID"),
+					        "PROPERTY_CODE" => Array("POSITION")
+					    )
+					);
+					?>
 				</div>
-				<div class="reviews block">
-					<div><h1>Письма и отзывы</h1></div>
-					<a href='#'>
-						<div class="review">
-							<img src="<?=SITE_SERVER_NAME?>/img/astahov.png" alt="">
-							<h2>Павел Астахов</h2>
-							<p>Уполномоченный при призеденте РФ по правам ребенка</p>
-						</div>
-					</a>
-					<a href='#'>	
-						<div class="review">
-							<img src="<?=SITE_SERVER_NAME?>/img/stradze.png" alt="">
-							<h2>Александр Страдзе</h2>
-							<p>Директор Департамента государственной политики в сфере воспитания детей и молодежи</p>
-						</div>
-					</a>
-					<a href='#'>
-						<div class="review">
-							<img src="<?=SITE_SERVER_NAME?>/img/bogdanov.png" alt="">
-							<h2>Антон Богданов</h2>
-							<p>Актер Кино</p>
-						</div>
-					</a>
-					<a href='#'>
-						<div class="review">
-							<img src="<?=SITE_SERVER_NAME?>/img/batalina.png" alt="">
-							<h2>Баталина Ольга</h2>
-							<p>Председатель коммитета Государственной Думы Федерального собрания Российской Федерации, заместитель секретаря Генерального совета «Единой России»</p>
-						</div>
-					</a>
-					<div class="add"><a href="http://"><img src="<?=SITE_SERVER_NAME?>/img/add.png" alt=""></a></div>
-				</div>
-*/?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

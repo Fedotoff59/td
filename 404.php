@@ -8,15 +8,11 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
 $APPLICATION->SetTitle("Страница не найдена");
 
-$APPLICATION->IncludeComponent("bitrix:main.map", ".default", array(
-	"CACHE_TYPE" => "A",
-	"CACHE_TIME" => "36000000",
-	"SET_TITLE" => "Y",
-	"LEVEL"	=>	"3",
-	"COL_NUM"	=>	"2",
-	"SHOW_DESCRIPTION" => "Y"
-	),
-	false
-);
-
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+?>
+<div class="block notfound">
+	<div>
+		<h1>Страница не найдена</h1>
+	</div>
+	<p>Сожелаем, но по адресу, который Вы ввели, нет страницы. Пожалуйста, попробуйте начать пользоваться нашим сайтом заново, перейдя на <a href="<?=SITE_SERVER_NAME?>/">главную страницу</a></p>
+</div>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -1,37 +1,37 @@
 @font-face {
     font-family: "PTSans";
-    src: url('../fonts/PT Sans/pt-sans.eot');
-    src: url("../fonts/PT Sans/pt-sans.ttf") format("truetype");
+    src: url('../fonts/PT Sans/pt-sans.eot') format('embedded-opentype');
+    src: url('../fonts/PT Sans/pt-sans.eot?#iefix') format('embedded-opentype'), url("../fonts/PT Sans/pt-sans.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "OpenSans";
-    src: url('../fonts/Open Sans/OpenSans-Regular.eot');
-    src: url("../fonts/Open Sans/OpenSans-Regular.ttf") format("truetype");
+    src: url('../fonts/Open Sans/OpenSans-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/Open Sans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url("../fonts/Open Sans/OpenSans-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "OpenSansLight";
     src: url('../fonts/Open Sans/OpenSans-Light.eot');
-    src: url("../fonts/Open Sans/OpenSans-Light.ttf") format("truetype");
+    src: url('../fonts/Open Sans/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url("../fonts/Open Sans/OpenSans-Light.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "OpenSansSemibold";
-    src: url('../fonts/Open Sans/OpenSans-Semibold.eot');
-    src: url("../fonts/Open Sans/OpenSans-Semibold.ttf") format("truetype");
+    src: url('../fonts/Open Sans/OpenSans-Semibold.eot') format('embedded-opentype');
+    src: url('../fonts/Open Sans/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), url("../fonts/Open Sans/OpenSans-Semibold.ttf") format("truetype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 @font-face {
     font-family: "OpenSansLightItalic";
-    src: url('../fonts/Open Sans/OpenSans-LightItalic.eot');
-    src: url("../fonts/Open Sans/OpenSans-LightItalic.ttf") format("truetype");
-    font-style: normal;
+    src: url('../fonts/Open Sans/OpenSans-LightItalic.eot') format('embedded-opentype');
+    src: url('../fonts/Open Sans/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'), url("../fonts/Open Sans/OpenSans-LightItalic.ttf") format("truetype");
+    font-style: italic;
     font-weight: normal;
 }
 * {
@@ -82,6 +82,8 @@ a{
 	margin: 20px 0px;
 	position: relative;
 	overflow: hidden;
+	min-height: 200px;
+	padding-bottom: 50px;
 }
  .block h2, .mini_block h2{
 	font-family: OpenSans;
@@ -214,6 +216,7 @@ a{
 	bottom: 10px;
 	left: 50%;
 	margin-left: -40px;
+	z-index: 2;
 }
 .add img{
 	width: 100%;
@@ -617,8 +620,8 @@ a{
 	_height: 250px;
 }
 .direction .person img{
-	width: 100%;
-	height: 100%;
+	max-width: 100%;
+	max-height: 150px;
 }
 .direction .person h2{
 	font-family: PTSans;
@@ -636,9 +639,12 @@ a{
 .docs:after{
 	display: block;
 	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
 	content: '';
-    z-index: -1;
-    background-color: white;
+	z-index: 1;
+	background-color: white;
 }
 .docs h1{
 	border-color: #0084c9;
@@ -676,6 +682,7 @@ a{
 	display: inline-block;
 	width: 20%;
 	margin: 2%;
+	margin-bottom: 50px;
 	vertical-align: top;
 	text-align: left;
 	zoom: 1;
@@ -683,7 +690,8 @@ a{
 	_height: 250px;
 }
 .reviews .review img{
-	width: 100%;
+	max-width: 100%;
+	max-height: 150px;
 }
 .reviews .review h2{
 	font-family: PTSans;
@@ -696,9 +704,12 @@ a{
 .reviews:after{
 	background-color: #c4c4c4;
 	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
 	height: 50px;
 	content: '';
-    z-index: -1;
+	z-index: 1;
 }
 
 
@@ -824,6 +835,10 @@ a{
 	content: '';
 	display: block;
 	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
 	background-color: #fafafa;
 }
 .copybooks_list{
@@ -879,6 +894,10 @@ a{
 	display: block;
 	content: '';
 	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
 	background-color: #fafafa;
 }
 .success{
@@ -965,7 +984,10 @@ a{
 	display: block;
 	height: 50px;
 	content: '';
-   z-index: -1;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
    background-color: white;
 }
 .buy h1{
@@ -1074,7 +1096,7 @@ a{
 
 /*PRESS*/
 .about_us h1{
-	border-color: #f7db16; 
+	border-color: #f7db16;
 }
 .about_us p{
 	font: 14px OpenSansSemibold;
@@ -1190,6 +1212,22 @@ a{
 }
 .lightbox h2.success_story{
 	display: inline-block;
+}
+
+/*404 page*/
+.notfound h1{
+	border-color: #f7db16;
+}
+.notfound p{
+	margin: 50px auto;
+	width: 60%;
+	text-align: left;
+	font-family: OpenSans;
+	font-size: 16px;
+}
+.notfound p a{
+	font-family: OpenSansLightItalic;
+	text-decoration: underline;
 }
 
 /*Footer*/

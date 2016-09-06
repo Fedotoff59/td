@@ -18,6 +18,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					</div>
 				</div>
 <? /*
+
 				<div class="block kraeved">
 					<div>
 						<h1>Конкурс «Экологический краевед»</h1>
