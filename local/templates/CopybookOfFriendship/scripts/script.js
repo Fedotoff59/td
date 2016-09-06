@@ -128,7 +128,7 @@ $(document).ready(function(){
 
 	$('.capabilities h2').click(function(){
 		$(this).toggleClass("passive active")
-		$(this).next('ul').slideToggle(500);
+		$(this).next('.capability').slideToggle(500);
 	});
 
 	$('.direction a').click(function(){
