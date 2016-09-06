@@ -35,7 +35,7 @@ IncludeTemplateLangFile(__FILE__);
 						<li><a href="<?=SITE_SERVER_NAME?>/organisation">отделения</a></li>
 						<li><a href="<?=SITE_SERVER_NAME?>/joinus">присоединиться</a></li>
 						<li><a href="<?=SITE_SERVER_NAME?>/projects">проекты</a></li>
-						<li><a href="<?=SITE_SERVER_NAME?>/press">пресс-центр</a></li>
+						<?/*<li><a href="<?=SITE_SERVER_NAME?>/press">пресс-центр</a></li>*/?>
 					</ul>
 				</div>
 				<div class="lightbox"></div>
