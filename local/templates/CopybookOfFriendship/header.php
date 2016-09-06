@@ -17,15 +17,14 @@ IncludeTemplateLangFile(__FILE__);
 		<div class="wrapper">
 			<div class="content">
 				<div class="header">
+					<div class="old_link"><a href="http://old.tetradka.org.ru/" target="_blank">Предыдущая версия сайта</a></div>
 					<div class="buttons">
+						<?/*
 						<ul>
-							<li><a href="http://old.tetradka.org.ru/" target="_blank">Предыдущая версия сайта</a></li>
-							<?/*
-							|
 							<li>Координаторам</li> |
 							<li>Вход</li>
-							*/?>
 						</ul>
+						*/?>
 					</div>
 					<div class="logo">
 						<a href="<?=SITE_SERVER_NAME?>/"><img src="<?=SITE_SERVER_NAME?>/img/Logo.png"/></a>
