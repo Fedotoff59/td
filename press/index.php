@@ -52,18 +52,18 @@ VK.Widgets.Group("vk_groups", {redesign: 1, mode: 4, wide: 1, width: "220", heig
 						<h1>Видео галерея</h1>
 					</div>
 					<img src="<?=SITE_SERVER_NAME?>/img/watch_more.png" alt="" class="watch_more">
-					<iframe width="900" height="506" src="https://www.youtube.com/embed/videoseries?list=PLc6EWMPYXQP2Qna6GaCesOH2-aGw1JtXH" frameborder="0" allowfullscreen></iframe>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/videoseries?list=PL6_jamNIWvVZ6WGLu07mXOp4Z1WabcHB6" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="news_block block">
 					<?$APPLICATION->IncludeComponent("bitrix:news.list","news",Array(
-							"IBLOCK_ID" => "21",
-							"NEWS_COUNT" => "3",
-							"SORT_BY1" => "ACTIVE_FROM",
-							"SORT_ORDER1" => "DESC",
-							"SORT_BY2" => "SORT",
-							"SORT_ORDER2" => "ASC",
-							"FILTER_NAME" => "",
-							"FIELD_CODE" => Array("ID")
+						"IBLOCK_ID" => "21",
+						"NEWS_COUNT" => "3",
+						"SORT_BY1" => "ACTIVE_FROM",
+						"SORT_ORDER1" => "DESC",
+						"SORT_BY2" => "SORT",
+						"SORT_ORDER2" => "ASC",
+						"FILTER_NAME" => "",
+						"FIELD_CODE" => Array("ID")
 						)
 					);
 					?>

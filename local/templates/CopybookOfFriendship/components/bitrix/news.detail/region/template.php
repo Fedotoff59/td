@@ -13,7 +13,7 @@
 $this->setFrameMode(true);
 ?>
 <div>
-	<h1><?$arResult['NAME']?></h1>
+	<h1><?=$arResult['NAME']?></h1>
 </div>
 <div class="left">
 	<div class="chairman">

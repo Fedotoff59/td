@@ -76,6 +76,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 							<p>Киселёва Виктория, 5«А» класс, МАОУ «Гимназия №33»</p>
 						</div>
 					</a>
+					<?/*<div class="add"><a href="http://"><img src="<?=SITE_SERVER_NAME?>/img/add.png" alt=""></a></div>*/?>
 				</div>
 				<div class="news_block block">
 					<i class="arrow left"><img src="<?=SITE_SERVER_NAME?>/img/larrow_gray.png" alt=""></i>
@@ -98,18 +99,19 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 						<h1>Наши партнеры</h1>
 					</div>
 					<?$APPLICATION->IncludeComponent("bitrix:news.list","partners",Array(
-							"IBLOCK_ID" => "10",
-							"NEWS_COUNT" => "5",
-							"SORT_BY1" => "ACTIVE_FROM",
-							"SORT_ORDER1" => "DESC",
-							"SORT_BY2" => "SORT",
-							"SORT_ORDER2" => "ASC",
-							"FILTER_NAME" => "",
-							"FIELD_CODE" => Array("ID"),
-							"PROPERTY_CODE" => Array("LINK")
-						)
-					);
+								"IBLOCK_ID" => "10",
+								"NEWS_COUNT" => "5",
+								"SORT_BY1" => "ACTIVE_FROM",
+								"SORT_ORDER1" => "DESC",
+								"SORT_BY2" => "SORT",
+								"SORT_ORDER2" => "ASC",
+								"FILTER_NAME" => "",
+								"FIELD_CODE" => Array("ID"),
+								"PROPERTY_CODE" => Array("LINK")
+							)
+						);
 					?>
+				</div>
 				<?php else: ?>
 				<div class="block">
 					<h1>Пожалуйста, выберите регион!</h1>
