@@ -12,7 +12,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					</div>
 					<div class="reason">
 						<img src="<?=SITE_SERVER_NAME?>/img/greenreason.png" alt=""><!--
-						--><p>Чтобы быть независимыми</p>
+						--><p>Чтобы заложить прочные традиции</p>
 					</div>
 					<br>
 					<div class="reason">
@@ -40,7 +40,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 						</a>
 					</div>
 					<div class="way">
-						<a href="http://">
+						<a href="javascript:void(null);">
 							<img src="<?=SITE_SERVER_NAME?>/img/mark.png" alt="">
 						</a>
 						<a href="javascript:void(null);">
