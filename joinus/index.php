@@ -92,7 +92,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 				</div>
 				<div class="block open">
 					<div>
-						<a href="">
+						<a href="javascript:void(null);">
 							<img src="<?=SITE_SERVER_NAME?>/img/earth.png" alt="">
 						</a>
 						<a href="javascript:void(null);">
