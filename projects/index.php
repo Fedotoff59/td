@@ -10,10 +10,10 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					<p>«Тетрадка Дружбы» - Всероссийская программа развития детско-молодёжных социальных инициатив и школьного добровольчества. В программе принимают участие образовательные учреждения, классные коллективы и отдельные учащиеся. В рамках «Тетрадки Дружбы» проводится конкурс творческих и учебных тетрадей и комплекс разнонаправленных мероприятий, объединяющих детей, педагогов и родителей.</p>
 					<div>
 						<ul>
-							<li class="label"><a href="/upload/projects/td/ref.docx"><p>Справка</p></a></li><!--
-							--><li class="label"><a href="/upload/projects/td/doc.docx"><p>Положение</p></a></li><!--
-							--><li class="label"><a href="/upload/projects/td/presentation.pptx"><p>Презентация</p></a></li><!--
-							--><li class="label"><a href="/upload/projects/td/application.docx"><p>Заявка на участие</p></a></li>
+							<li class="label"><a href="/upload/projects/td/ref_td.pdf"><p>Справка</p></a></li><!--
+							--><li class="label"><a href="/upload/projects/td/doc_td.pdf"><p>Положение</p></a></li><!--
+							--><li class="label"><a href="/upload/projects/td/presentation_td.pdf"><p>Презентация</p></a></li><!--
+							--><li class="label"><a href="/upload/projects/td/application_td.pdf"><p>Заявка на участие</p></a></li>
 						</ul>
 					</div>
 				</div>
@@ -58,10 +58,10 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					<p>Благотворительный проект «Все дети хотят дружить» направлен на поддержку творческого и профессионального развития молодёжи с инвалидностью. В рамках проекта производится продукция с детскими рисунками, средства от продажи которой направляются на благотворительность. Принять участие в конкурсе рисунков для нанесения на продукцию может любой школьник.</p>
 					<div>
 						<ul>
-							<li class="label"><a href="/upload/projects/vdhd/ref.doc"><p>Справка</p></a></li><!--
-							--><li class="label"><a href="/upload/projects/vdhd/doc.docx"><p>Положение</p></a></li><!--
-							--><li class="label"><a href="/upload/projects/vdhd/presentation.pdf"><p>Презентация</p></a></li><!--
-							--><li class="label"><a href="/upload/projects/vdhd/application.docx"><p>Заявка на участие</p></a></li>
+							<li class="label"><a href="/upload/projects/vdhd/ref_vdhd.pdf"><p>Справка</p></a></li><!--
+							--><li class="label"><a href="/upload/projects/vdhd/doc_vdhd.pdf"><p>Положение</p></a></li><!--
+							--><li class="label"><a href="/upload/projects/vdhd/presentation_vdhd.pdf"><p>Презентация</p></a></li><!--
+							--><li class="label"><a href="/upload/projects/vdhd/application_vdhd.pdf"><p>Заявка на участие</p></a></li>
 						</ul>
 					</div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
