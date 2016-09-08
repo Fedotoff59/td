@@ -3,10 +3,10 @@ $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 ?>
 				<div class="banner about">
-					<img src="<?=SITE_SERVER_NAME?>/img/about us/1.png" alt="" class="current">
-					<img src="<?=SITE_SERVER_NAME?>/img/about us/2.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/about us/3.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/about us/4.png" alt="" style="display:none;">
+					<img src="<?=SITE_SERVER_NAME?>/img/about_us/1.png" alt="" class="current">
+					<img src="<?=SITE_SERVER_NAME?>/img/about_us/2.png" alt="" style="display:none;">
+					<img src="<?=SITE_SERVER_NAME?>/img/about_us/3.png" alt="" style="display:none;">
+					<img src="<?=SITE_SERVER_NAME?>/img/about_us/4.png" alt="" style="display:none;">
 					<i class="arrow left"><img src="<?=SITE_SERVER_NAME?>/img/larrow.png" alt=""></i>
 					<i class="arrow right"><img src="<?=SITE_SERVER_NAME?>/img/rarrow.png" alt=""></i>
 				</div>
