@@ -620,6 +620,7 @@ a{
 	border-color: #e54c7c;
 }
 .direction .person{
+	vertical-align: top;
 	text-align: left;
 	display: inline-block;
 	width: 14%;

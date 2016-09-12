@@ -22,13 +22,13 @@ $this->setFrameMode(true);
 			<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
 				<img
 					class="preview_picture"
-					border="0"
+					<?/*border="0"*/?>
 					src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
-					width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
+					<?/*width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
 					height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
 					alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
 					title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
-					style="float:left"
+					style="float:left"*/?>
 				/>
 			<?endif?>
 			<h2><?= $arItem["NAME"]?></h2>
