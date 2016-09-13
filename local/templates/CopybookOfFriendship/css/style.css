@@ -787,6 +787,7 @@ a{
 .region .doc{
 	position: relative;
 	background-color: white;
+	min-height: 50px;
 }
 .region .doc>a>p{
 	display: inline-block;

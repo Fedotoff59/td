@@ -40,3 +40,21 @@ $this->setFrameMode(true);
 	</div>
 	<?endif?>
 </div>
+<div class="b_region_promo">
+	<div class="b_region_promo__holder">
+		<div class="b_region_promo__caption">
+			Открыт прием заявок на участие в краевом слете
+		</div>
+		<div class="b_region_promo__links">
+			<div class="b_region_promo__action">
+				<a href="#">Cкачать положение</a>
+			</div>
+			<div class="b_region_promo__action">
+				<a href="#">Подать заявку (г. Пермь)</a>
+			</div>
+			<div class="b_region_promo__action">
+				<a href="#">Подать заявку (Пермский край)</a>
+			</div>
+		</div>
+	</div>
+</div>
