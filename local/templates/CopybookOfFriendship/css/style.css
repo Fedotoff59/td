@@ -1276,3 +1276,37 @@ a{
 .footer .socials img{
 	height: 48px;
 }
+
+.b-form {
+	margin: 0 auto;
+}
+
+.b-form h1 {
+	border-color: #e54c7c;
+}
+
+.googleform-block {
+	height: 800px;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.googleform-holder {
+	height: 800px;
+	overflow-x: visible;
+	overflow-y: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.googleform-container {
+	left: 50%;
+	margin: 0 auto;
+	position: absolute;
+	top: -150px;
+}
+
+.googleform-container iframe {
+	position: absolute;
+	left: -380px;
+}

@@ -47,13 +47,13 @@ $this->setFrameMode(true);
 		</div>
 		<div class="b_region_promo__links">
 			<div class="b_region_promo__action">
-				<a href="#">Cкачать положение</a>
+				<a href="javascript:void(null);">Cкачать положение</a>
 			</div>
 			<div class="b_region_promo__action">
-				<a href="#">Подать заявку (г. Пермь)</a>
+				<a href="/forms/slet/perm/">Подать заявку (г. Пермь)</a>
 			</div>
 			<div class="b_region_promo__action">
-				<a href="#">Подать заявку (Пермский край)</a>
+				<a href="/forms/slet/pk/">Подать заявку (Пермский край)</a>
 			</div>
 		</div>
 	</div>
