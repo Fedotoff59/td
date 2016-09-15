@@ -43,7 +43,7 @@ $this->setFrameMode(true);
 <div class="b_region_promo">
 	<div class="b_region_promo__holder">
 		<div class="b_region_promo__caption">
-			Открыт прием заявок на участие в краевом слете
+			Открыт прием заявок<br /> на участие в краевом слете
 		</div>
 		<div class="b_region_promo__links">
 			<div class="b_region_promo__action">
