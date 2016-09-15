@@ -10,6 +10,20 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					<i class="arrow left"><img src="<?=SITE_SERVER_NAME?>/img/larrow.png" alt=""></i>
 					<i class="arrow right"><img src="<?=SITE_SERVER_NAME?>/img/rarrow.png" alt=""></i>
 				</div>
+				<div class="news_block block">
+					<?$APPLICATION->IncludeComponent("bitrix:news.list","news",Array(
+					        "IBLOCK_ID" => "21",
+					        "NEWS_COUNT" => "3",
+					        "SORT_BY1" => "ACTIVE_FROM",
+					        "SORT_ORDER1" => "DESC",
+					        "SORT_BY2" => "SORT",
+					        "SORT_ORDER2" => "ASC",
+					        "FILTER_NAME" => "",
+					        "FIELD_CODE" => Array("ID")
+					    )
+					);
+					?>
+				</div>
 				<div class="map block">
 					<img src="<?=SITE_SERVER_NAME?>/img/map.png" alt="">
 					<div><h1>География организации</h1></div>
@@ -183,20 +197,6 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					<a href="javascript:void(null);">
 						<p>Смотреть все «Тетрадки Дружбы»</p>
 					</a>
-				</div>
-				<div class="news_block block">
-					<?$APPLICATION->IncludeComponent("bitrix:news.list","news",Array(
-					        "IBLOCK_ID" => "21",
-					        "NEWS_COUNT" => "3",
-					        "SORT_BY1" => "ACTIVE_FROM",
-					        "SORT_ORDER1" => "DESC",
-					        "SORT_BY2" => "SORT",
-					        "SORT_ORDER2" => "ASC",
-					        "FILTER_NAME" => "",
-					        "FIELD_CODE" => Array("ID")
-					    )
-					);
-					?>
 				</div>
 				<div class="partners_block block">
 					<div>
