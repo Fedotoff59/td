@@ -16,6 +16,7 @@
     padding-top: 40px;
     width: 90%;
     white-space: nowrap;
+    position: relative;
 }
 
 .b_region_promo__caption {
@@ -27,10 +28,26 @@
     vertical-align: middle;
 }
 
+.b_region_promo__caption span:after {
+    content:"\a";
+    white-space: pre;
+}
+
 .b_region_promo__links {
     margin-left: 60px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.b_region_promo__date, .b_region_promo__place {
+    bottom: 40px;
+    display: inline-block;
+    font-family: PTSans;
+    font-size: 12pt;
+}
+
+.b_region_promo__place {
+    margin-left: 300px;
 }
 
 .b_region_promo__action {

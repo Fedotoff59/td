@@ -51,7 +51,13 @@ $this->setFrameMode(true);
 <div class="b_region_promo">
 	<div class="b_region_promo__holder">
 		<div class="b_region_promo__caption">
-			Открыт прием заявок<br /> на участие в краевом слете
+			<span>Открыт прием заявок<br /> на участие в краевом слете</span>
+			<div class="b_region_promo__date">
+				3 октября 2016
+			</div>
+			<div class="b_region_promo__place">
+				Дворец молодежи г. Перми
+			</div>
 		</div>
 		<div class="b_region_promo__links">
 			<div class="b_region_promo__action">
