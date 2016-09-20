@@ -45,8 +45,9 @@ $this->setFrameMode(true);
 	CModule::IncludeModule("fileman");
 	CMedialib::Init();
 	// 4 - is id of doc's collection, 1 - is id of doc
-	$arRes = CMedialibItem::GetList(array('arCollections' => array("4"), 'ID' => 1));
+	$arRes = CMedialibItem::GetList(array('arCollections' => array("4"), 'ID' => Array(1, 2)));
 	$doc_path = $arRes[0]['PATH'];
+	$programm_path = $arRes[1]['PATH'];
 ?>
 <div class="b_region_promo">
 	<div class="b_region_promo__holder">
@@ -62,6 +63,9 @@ $this->setFrameMode(true);
 		<div class="b_region_promo__links">
 			<div class="b_region_promo__action">
 				<a href="<?=$doc_path?>">Cкачать положение</a>
+			</div>
+			<div class="b_region_promo__action">
+				<a href="<?=$programm_path?>">Предварительная программа</a>
 			</div>
 			<div class="b_region_promo__action">
 				<a href="/forms/slet/perm/">Подать заявку (г. Пермь)</a>
