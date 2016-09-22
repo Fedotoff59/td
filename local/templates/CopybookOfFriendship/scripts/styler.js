@@ -1,3 +1,7 @@
-/**
- * Created by fedotoff on 22.09.16.
- */
+(function($) {
+    $(function() {
+
+        $('input, select').styler();
+
+    });
+})(jQuery);
