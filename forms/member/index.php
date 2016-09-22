@@ -6,6 +6,7 @@ use Bitrix\Main\Page\Asset;
 Asset::getInstance()->addString('<link rel="stylesheet" type="text/css" href="'.SITE_TEMPLATE_PATH.'/vendor/jquery.formstyler/jquery.formstyler.css">');
 Asset::getInstance()->addString('<script src="'.SITE_TEMPLATE_PATH.'/vendor/jquery.formstyler/jquery.formstyler.js"></script>');
 Asset::getInstance()->addString('<script src="'.SITE_TEMPLATE_PATH.'/scripts/styler.js"></script>');
+$APPLICATION->SetTitle("Заявка на принятие в члены ДМООО «Тетрадка Дружбы»");
 ?>
     <div class="block b-form">
         <div>

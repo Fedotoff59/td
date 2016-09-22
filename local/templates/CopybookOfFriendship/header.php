@@ -9,7 +9,7 @@ IncludeTemplateLangFile(__FILE__);
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript" src="<?=SITE_SERVER_NAME.SITE_TEMPLATE_PATH?>/scripts/script.js"></script>
-		<title>Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»</title>
+		<title><?$APPLICATION->ShowTitle()?></title>
 		<?$APPLICATION->ShowHead();?>
 	</head>
 	<body>
