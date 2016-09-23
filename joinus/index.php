@@ -40,10 +40,10 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 						</a>
 					</div>
 					<div class="way">
-						<a href="javascript:void(null);">
+						<a href="/forms/member/">
 							<img src="<?=SITE_SERVER_NAME?>/img/mark.png" alt="">
 						</a>
-						<a href="javascript:void(null);">
+						<a href="/forms/member/">
 							<h2>Стать членом организации</h2>
 							<p>и получить новые возможности<br>для развития</p>
 						</a>

@@ -1333,3 +1333,8 @@ a{
 .memberform-row-input {
 	float: right;
 }
+
+.info-link {
+    font-family: "PT Sans";
+    font-size: 15pt;
+}
