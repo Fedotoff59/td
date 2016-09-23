@@ -12,8 +12,37 @@ $APPLICATION->SetTitle("Заявка на принятие в члены ДМО�
         <div>
             <h1>Заявка на принятие в члены ДМООО «Тетрадка Дружбы»</h1>
         </div>
-        <div class="member-form-block">
+        <div class="memberform-block">
+            <div class="memberform-row">
+                <div class="memberform-row-caption">
+                    <h2>Регион</h2>
+                </div>
+                <div class="memberform-row-input">
+                    <select>
+                        <option>-- Выберите --</option>
+                    </select>
+                </div>
+            </div>
 
+            <div class="memberform-row">
+                <div class="memberform-row-caption">
+                    <h2>Населенный пункт</h2>
+                </div>
+                <div class="memberform-row-input">
+                    <select>
+                        <option>-- Выберите --</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="memberform-row">
+                <div class="memberform-row-caption">
+                    <h2>Образовательное учреждение (место работы)</h2>
+                </div>
+                <div class="memberform-row-input">
+                    <input class="styler" type="text" />
+                </div>
+            </div>
         </div>
     </div>
 

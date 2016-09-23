@@ -1309,3 +1309,27 @@ a{
 	position: absolute;
 	left: -380px;
 }
+
+.memberform-block {
+	margin: 50px auto 0;
+	width: 60%;
+	position: relative;
+}
+
+.memberform-row {
+	display: inline-block;
+	width: 800px;
+	height: 50px;
+}
+
+.memberform-row:after {
+	clear: both;
+}
+
+.memberform-row-caption {
+	float: left;
+}
+
+.memberform-row-input {
+	float: right;
+}
