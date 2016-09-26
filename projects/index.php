@@ -1,6 +1,7 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
+$APPLICATION->SetTitle("Проекты - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
 ?>
 				<div class="block programm">
 					<div>

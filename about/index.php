@@ -1,6 +1,7 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
+$APPLICATION->SetTitle("О нас - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
 ?>
 				<div class="banner about">
 					<img src="<?=SITE_SERVER_NAME?>/img/about_us/1.png" alt="" class="current">

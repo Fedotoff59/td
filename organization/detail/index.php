@@ -14,7 +14,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					        "SORT_ORDER2" => "ASC",
 					        "FILTER_NAME" => "",
 					        "FIELD_CODE" => Array("ID"),
-					        "PROPERTY_CODE" => Array("FIO")
+					        "PROPERTY_CODE" => Array("FIO"),
+							"SET_TITLE" => "N",
 					    )
 					);?>
 					<h2>Не нашли свой регион?</h2>
@@ -33,7 +34,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 								"FIELD_CODE" => array("DETAIL_PICTURE"),
 								"PROPERTY_CODE" => array("FIO", 'PHONE', 'MAIL', 'PHOTO', 'DOC', 'POSITION'),
 								"SET_STATUS_404" => "Y",
-								"SHOW_404" => "Y"
+								"SHOW_404" => "Y",
+								"SET_TITLE" => "Y",
 							)
 						);
 					?>
@@ -85,7 +87,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					        "SORT_BY2" => "SORT",
 					        "SORT_ORDER2" => "ASC",
 					        "FILTER_NAME" => "arrFilter",
-					        "FIELD_CODE" => Array("ID")
+					        "FIELD_CODE" => Array("ID"),
+							"SET_TITLE" => "N",
 					    )
 					);
 					?>
@@ -104,7 +107,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 								"SORT_ORDER2" => "ASC",
 								"FILTER_NAME" => "",
 								"FIELD_CODE" => Array("ID"),
-								"PROPERTY_CODE" => Array("LINK")
+								"PROPERTY_CODE" => Array("LINK"),
+								"SET_TITLE" => "N",
 							)
 						);
 					?>

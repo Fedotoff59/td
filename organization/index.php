@@ -1,6 +1,7 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
+$APPLICATION->SetTitle("Отделения - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
 ?>
 	<?/*
 	<div class="block info"><p>Представительства организации «Тетрадка Дружбы» открываются в разных уголках России, чтобы у любого ребёнка была возможность стать участником её деятельности. В школах и учреждениях дополнительного образования открываются местные отделения организации.</p></div>
@@ -17,7 +18,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					        "SORT_ORDER2" => "ASC",
 					        "FILTER_NAME" => "",
 					        "FIELD_CODE" => Array("ID"),
-					        "PROPERTY_CODE" => Array("FIO")
+					        "PROPERTY_CODE" => Array("FIO"),
+							"SET_TITLE" => "N",
 					    )
 					);?>
 					<h2>Не нашли свой регион?</h2>

@@ -1,6 +1,7 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
+$APPLICATION->SetTitle("Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
 ?>
 <div class="banner mainpage">
 					<img src="<?=SITE_SERVER_NAME?>/img/index/1.png" alt="" class="current">
@@ -19,7 +20,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					        "SORT_BY2" => "SORT",
 					        "SORT_ORDER2" => "ASC",
 					        "FILTER_NAME" => "",
-					        "FIELD_CODE" => Array("ID")
+					        "FIELD_CODE" => Array("ID"),
+							"SET_TITLE" => "N",
 					    )
 					);
 					?>
@@ -37,7 +39,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 								"SORT_ORDER2" => "ASC",
 								"FILTER_NAME" => "",
 								"FIELD_CODE" => Array("ID"),
-								"PROPERTY_CODE" => Array("FIO")
+								"PROPERTY_CODE" => Array("FIO"),
+								"SET_TITLE" => "N",
 					    )
 					);?>
 				</div>
@@ -88,7 +91,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					        "SORT_ORDER2" => "ASC",
 					        "FILTER_NAME" => "",
 					        "FIELD_CODE" => Array("ID"),
-					        "PROPERTY_CODE" => Array("DESCRIPTION")
+					        "PROPERTY_CODE" => Array("DESCRIPTION"),
+							"SET_TITLE" => "N",
 					    )
 					);?>
 					<div class="president">
@@ -129,7 +133,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					        "SORT_ORDER2" => "ASC",
 					        "FILTER_NAME" => "",
 					        "FIELD_CODE" => Array("ID"),
-					        "PROPERTY_CODE" => Array("DESCRIPTION")
+					        "PROPERTY_CODE" => Array("DESCRIPTION"),
+							"SET_TITLE" => "N",
 					    )
 					);
 					?>
@@ -211,7 +216,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 								"SORT_ORDER2" => "ASC",
 								"FILTER_NAME" => "",
 								"FIELD_CODE" => Array("ID"),
-								"PROPERTY_CODE" => Array("LINK")
+								"PROPERTY_CODE" => Array("LINK"),
+								"SET_TITLE" => "N",
 							)
 						);
 					?>

@@ -1,6 +1,7 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
+$APPLICATION->SetTitle("Присоединиться - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
 ?>
 				<div class="block why">
 					<div>
@@ -69,7 +70,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 								"SORT_ORDER2" => "ASC",
 								"FILTER_NAME" => "",
 								"FIELD_CODE" => Array("ID"),
-								"PROPERTY_CODE" => Array("SCHOOL", "CITY")
+								"PROPERTY_CODE" => Array("SCHOOL", "CITY"),
+								"SET_TITLE" => "N",
 							)
 						);
 					?>
@@ -85,7 +87,8 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 								"SORT_ORDER2" => "ASC",
 								"FILTER_NAME" => "",
 								"FIELD_CODE" => Array("ID"),
-								"PROPERTY_CODE" => Array("")
+								"PROPERTY_CODE" => Array(""),
+								"SET_TITLE" => "N",
 							)
 						);
 					?>
@@ -190,6 +193,5 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					</a>
 					<div class="add"><a href="http://"><img src="<?=SITE_SERVER_NAME?>/img/add.png" alt=""></a></div>
 				</div>
-<<<<<<< HEAD
 				*/?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
