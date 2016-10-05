@@ -1338,3 +1338,10 @@ a{
     font-family: "PT Sans";
     font-size: 15pt;
 }
+
+.profile {
+	display: inline-block;
+	text-align: left;
+	margin-top: 20px;
+	font-family: "PT Sans";
+}
