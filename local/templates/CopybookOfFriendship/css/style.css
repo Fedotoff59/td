@@ -1345,3 +1345,7 @@ a{
 	margin-top: 20px;
 	font-family: "PT Sans";
 }
+
+.b-profile h1 {
+	border-color: #aadd6d;
+}

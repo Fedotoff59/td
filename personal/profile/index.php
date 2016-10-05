@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Настройки пользователя");
 ?>
-<div class="block">
+<div class="block b-profile">
 	<div>
 		<h1>Личный кабинет пользователя</h1>
 	</div>
