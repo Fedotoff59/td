@@ -1038,30 +1038,30 @@ a{
 }
 
 /*PROJECTS*/
-.programm img, .kraeved img, .lampa img, .friendship img{
+.programm img, .kraeved img, .lampa img, .friendship img, .sdg img{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
 	vertical-align: bottom;
 	margin-top: 20px;
 }
-.programm>div:last-child, .kraeved>div:last-child, .lampa>div:last-child, .friendship>div:last-child{
+.programm>div:last-child, .kraeved>div:last-child, .lampa>div:last-child, .friendship>div:last-child, .sdg > div:last-child{
 	width: 100%;
 	background: rgba(0, 0, 0, 0.5);
 	height: 50px;
 	position: absolute;
 	bottom: 0px;
 }
-.programm li:nth-child(1) p, .kraeved li:nth-child(1) p, .lampa li:nth-child(1) p, .friendship li:nth-child(1) p{
+.programm li:nth-child(1) p, .kraeved li:nth-child(1) p, .lampa li:nth-child(1) p, .friendship li:nth-child(1) p, .sdg li:nth-child(1) p{
 	border-color: #a8db6d;
 }
-.programm li:nth-child(2) p, .kraeved li:nth-child(2) p, .lampa li:nth-child(2) p, .friendship li:nth-child(2) p{
+.programm li:nth-child(2) p, .kraeved li:nth-child(2) p, .lampa li:nth-child(2) p, .friendship li:nth-child(2) p, .sdg li:nth-child(2) p{
 	border-color: #0082c7;
 }
-.programm li:nth-child(3) p, .kraeved li:nth-child(3) p, .lampa li:nth-child(3) p, .friendship li:nth-child(3) p{
+.programm li:nth-child(3) p, .kraeved li:nth-child(3) p, .lampa li:nth-child(3) p, .friendship li:nth-child(3) p, .sdg li:nth-child(3) p{
 	border-color: #f7db16;
 }
-.programm li:nth-child(4) p, .kraeved li:nth-child(4) p, .lampa li:nth-child(4) p, .friendship li:nth-child(4) p{
+.programm li:nth-child(4) p, .kraeved li:nth-child(4) p, .lampa li:nth-child(4) p, .friendship li:nth-child(4) p, .sdg li:nth-child(4) p{
 	border-color: #e34c7c;
 }
 .programm h1{
@@ -1076,7 +1076,10 @@ a{
 .friendship h1{
 	border-color: #0082c7;
 }
-.programm ul, .kraeved ul, .lampa ul, .friendship ul{
+.sdg h1{
+	border-color: #e34c7c;
+}
+.programm ul, .kraeved ul, .lampa ul, .friendship ul, .sdg ul{
 	margin: 0px;
 	padding: 0px;
 	display: inline-block;
@@ -1089,7 +1092,13 @@ a{
 	height: 50px;
 	line-height: 50px;
 }
-.programm li p, .kraeved li p, .lampa li p, .friendship li p{
+.sdg li{
+	display: inline-block;
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+}
+.programm li p, .kraeved li p, .lampa li p, .friendship li p, .sdg li p {
 	display: inline-block;
 	border-bottom: 1px solid;
 	color: white;
@@ -1098,7 +1107,7 @@ a{
 	vertical-align: middle;
 	height: 35px;
 }
-.programm>p, .kraeved>p, .lampa>p, .friendship>p{
+.programm>p, .kraeved>p, .lampa>p, .friendship>p, .sdg > p{
 	width: 30%;
 	position: absolute;
 	top: 20%;
@@ -1349,3 +1358,29 @@ a{
 .b-profile h1 {
 	border-color: #aadd6d;
 }
+
+.b-static {
+	margin: 0 auto;
+	font-family: "PT Sans";
+}
+
+.b-static h1 {
+	border-color: #e54c7c;
+
+}
+
+.b-static-content {
+	width: 80%;
+	text-align: left;
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.sdg-list {
+	font-size: 24px;
+}
+
+.b-static-container {
+	margin: 30px;
+}
+

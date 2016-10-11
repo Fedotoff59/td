@@ -65,4 +65,20 @@ $APPLICATION->SetTitle("Проекты - Детско-молодёжная об�
 							--><li class="label"><a href="/upload/projects/vdhd/application_vdhd.pdf"><p>Заявка на участие</p></a></li>
 						</ul>
 					</div>
+				</div>
+				<div class="block sdg">
+					<div>
+						<h1>Проект «Все дети России за мир на земле»</h1>
+					</div>
+					<img src="<?=SITE_SERVER_NAME?>/img/sdg.jpg" alt="">
+					<p>Проект «Все дети России за мир на земле» Всероссийская акция по привлечению внимания к современным проблемам человечества и реализации ЦУР. </p>
+					<div>
+						<ul>
+							<li class="label"><a href="/upload/projects/sdg/doc_sdg.pdf"><p>Положение</p></a></li>
+							<li class="label"><a href="/projects/sdg/recomendations/"><p>Рекомендации для урока</p></a></li>
+							<li class="label"><a href="javascript:void(0);"><p>Заявка на участие</p></a></li>
+							<li class="label"><a href="javascript:void(0);"><p>Загрузить отчет</p></a></li>
+						</ul>
+					</div>
+				</div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
