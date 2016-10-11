@@ -1,7 +1,7 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
-$APPLICATION->SetTitle("Заявка - краевой слет - Пермь - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
+$APPLICATION->SetTitle("Рекомендации к уроку - Проект «Все дети России за мир на земле»");
 ?>
     <div class="block b-static">
         <div>

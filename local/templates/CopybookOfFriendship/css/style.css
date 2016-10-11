@@ -1300,12 +1300,20 @@ a{
 	width: 100%;
 }
 
+.googleform-block--h1200 {
+	height: 1200px;
+}
+
 .googleform-holder {
 	height: 800px;
 	overflow-x: visible;
 	overflow-y: hidden;
 	position: relative;
 	width: 100%;
+}
+
+.googleform-holder--h1200 {
+	height: 1200px;
 }
 
 .googleform-container {
@@ -1383,4 +1391,4 @@ a{
 .b-static-container {
 	margin: 30px;
 }
-
+div.bx-auth {max-width:600px; margin-top:16px; margin-bottom:24px; display: inline-block; font-family: "PT Sans"; text-align: left}

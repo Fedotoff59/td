@@ -3,6 +3,7 @@
 ShowMessage($arParams["~AUTH_RESULT"]);
 
 ?>
+<div style="max-width:600px; margin-top:16px; margin-bottom:24px; display: inline-block; font-family: 'PT Sans'; text-align: left">
 <form name="bform" method="post" target="_top" action="<?=$arResult["AUTH_URL"]?>">
 <?
 if (strlen($arResult["BACKURL"]) > 0)
@@ -49,6 +50,7 @@ if (strlen($arResult["BACKURL"]) > 0)
 <a href="<?=$arResult["AUTH_AUTH_URL"]?>"><b><?=GetMessage("AUTH_AUTH")?></b></a>
 </p> 
 </form>
+</div>
 <script type="text/javascript">
 document.bform.USER_LOGIN.focus();
 </script>

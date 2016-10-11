@@ -76,7 +76,7 @@ $APPLICATION->SetTitle("Проекты - Детско-молодёжная об�
 						<ul>
 							<li class="label"><a href="/upload/projects/sdg/doc_sdg.pdf"><p>Положение</p></a></li>
 							<li class="label"><a href="/projects/sdg/recomendations/"><p>Рекомендации для урока</p></a></li>
-							<li class="label"><a href="javascript:void(0);"><p>Заявка на участие</p></a></li>
+							<li class="label"><a href="/personal/activities/sdg/"><p>Заявка на участие</p></a></li>
 							<li class="label"><a href="javascript:void(0);"><p>Загрузить отчет</p></a></li>
 						</ul>
 					</div>
