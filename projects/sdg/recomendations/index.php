@@ -9,13 +9,13 @@ $APPLICATION->SetTitle("Рекомендации к уроку - Проект «
         </div>
         <div class="b-static-content">
             <ul class="static-list sdg-list">
-                <li><a href="/upload/projects/sdg/sdg_rec_booklet.pdf">Буклет для проведения акции «Все дети России за мир на земле»</a></li>
-                <li><a href="/upload/projects/sdg/sdg_rec_4_10.pdf">Путеводитель по Целям 4, 10</a></li>
-                <li><a href="/upload/projects/sdg/sdg_rec_6_14.pdf">Путеводитель по целям 6, 14</a></li>
-                <li><a href="/upload/projects/sdg/sdg_rec_7_9_11_12.pdf">Путеводитель по целям 7, 9, 11, 12</a></li>
-                <li><a href="/upload/projects/sdg/sdg_rec_7_13_15.pdf">Путеводитель по целям 7, 13, 15</a></li>
-                <li><a href="/upload/projects/sdg/sdg_rec_15.pdf">Путеводитель по целям 15</a></li>
-                <li><a href="/upload/projects/sdg/sdg_rec_guide.pdf">Путеводитель по Целям Мир, которого мы хотим</a></li>
+                <li><img src="/img/pinkreason.png"><a href="/upload/projects/sdg/sdg_rec_booklet.pdf">Буклет для проведения акции «Все дети России за мир на земле»</a></li>
+                <li><img src="/img/pinkreason.png"><a href="/upload/projects/sdg/sdg_rec_4_10.pdf">Путеводитель по Целям 4, 10</a></li>
+                <li><img src="/img/pinkreason.png"><a href="/upload/projects/sdg/sdg_rec_6_14.pdf">Путеводитель по целям 6, 14</a></li>
+                <li><img src="/img/pinkreason.png"><a href="/upload/projects/sdg/sdg_rec_7_9_11_12.pdf">Путеводитель по целям 7, 9, 11, 12</a></li>
+                <li><img src="/img/pinkreason.png"><a href="/upload/projects/sdg/sdg_rec_7_13_15.pdf">Путеводитель по целям 7, 13, 15</a></li>
+                <li><img src="/img/pinkreason.png"><a href="/upload/projects/sdg/sdg_rec_15.pdf">Путеводитель по целям 15</a></li>
+                <li><img src="/img/pinkreason.png"><a href="/upload/projects/sdg/sdg_rec_guide.pdf">Путеводитель по Целям Мир, которого мы хотим</a></li>
             </ul>
 
             <div class="b-static-container">
