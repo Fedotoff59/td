@@ -3,7 +3,7 @@ $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 $APPLICATION->SetTitle("Рекомендации к уроку - Проект «Все дети России за мир на земле»");
 ?>
-    <div class="block b-static">
+    <div class="block b-static w60p">
         <div>
             <h1>Рекомендации для урока</h1>
         </div>
