@@ -7,6 +7,10 @@
     margin: 20px 0;
 }
 
+.b_region_promo--blue {
+    background: #0084c9;
+}
+
 .b_region_promo__holder {
     height: 225px;
     line-height: 40pt;
@@ -28,6 +32,10 @@
     vertical-align: bottom;
 }
 
+.b_text-color-w {
+    color: #ffffff;
+}
+
 .b_region_promo__caption span:after {
     content:"\a";
     white-space: pre;
@@ -36,7 +44,7 @@
 .b_region_promo__links {
     margin-left: 60px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .b_region_promo__date, .b_region_promo__place {
@@ -52,11 +60,16 @@
 
 .b_region_promo__action {
     line-height: 50px;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 20px;
     text-align: left;
 }
 
 .b_region_promo__action > a {
     text-decoration: underline;
+    color: #ffffff;
+}
+
+.b_region_promo__action > a:hover {
+    color: #dadada;
 }

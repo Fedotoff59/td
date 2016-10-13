@@ -44,20 +44,20 @@ $this->setFrameMode(true);
 	/* Get path of doc from medialibrary */
 	CModule::IncludeModule("fileman");
 	CMedialib::Init();
-	// 4 - is id of doc's collection, 1 - is id of doc
-	$arRes = CMedialibItem::GetList(array('arCollections' => array("4"), 'ID' => Array(1, 2)));
+	// 4 - is id of doc's collection
+	$arRes = CMedialibItem::GetList(array('arCollections' => array("4"), 'ID' => Array(4)));
 	$doc_path = $arRes[0]['PATH'];
 	$programm_path = $arRes[1]['PATH'];
 ?>
-<div class="b_region_promo">
+<div class="b_region_promo b_region_promo--blue">
 	<div class="b_region_promo__holder">
-		<div class="b_region_promo__caption">
-			<span>Открыт прием заявок<br /> на участие в краевом слете</span>
+		<div class="b_region_promo__caption b_text-color-w">
+			<span>Краевой Спортивный <br />праздник</span>
 			<div class="b_region_promo__date">
-				3 октября 2016
+				27 октября 2016
 			</div>
 			<div class="b_region_promo__place">
-				Дворец молодежи г. Перми
+				СК им.Сухарева
 			</div>
 		</div>
 		<div class="b_region_promo__links">
@@ -65,13 +65,7 @@ $this->setFrameMode(true);
 				<a href="<?=$doc_path?>">Cкачать положение</a>
 			</div>
 			<div class="b_region_promo__action">
-				<a href="<?=$programm_path?>">Предварительная программа</a>
-			</div>
-			<div class="b_region_promo__action">
-				<a href="/forms/slet/perm/">Подать заявку (г. Пермь)</a>
-			</div>
-			<div class="b_region_promo__action">
-				<a href="/forms/slet/pk/">Подать заявку (Пермский край)</a>
+				<a href="/forms/sport/">Подать заявку</a>
 			</div>
 		</div>
 	</div>
