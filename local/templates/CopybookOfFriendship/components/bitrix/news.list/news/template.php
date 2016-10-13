@@ -15,8 +15,8 @@ $prev = $page - 1;
 $next = $page + 1;
 $page_count = $arResult['NAV_RESULT']->NavPageCount;
 ?>
-<i id='<?=$page>1?"npage_$prev":''?>' class="arrow left"><img src="<?=SITE_SERVER_NAME?>/img/larrow_gray.png" alt=""></i>
-<i id='<?=$page<$page_count?"npage_$next":''?>' class="arrow right"><img src="<?=SITE_SERVER_NAME?>/img/rarrow_gray.png" alt=""></i>
+<i id='<?=$page>1?"npage_$prev":''?>' class="arrow left"><img src="/img/larrow_gray.png" alt=""></i>
+<i id='<?=$page<$page_count?"npage_$next":''?>' class="arrow right"><img src="/img/rarrow_gray.png" alt=""></i>
 <?php foreach ($arResult["ITEMS"] as $index => $arItem): ?>
 	<div class="news" id="<?=$index?>">
 		<p class="date"><?echo $arItem["DISPLAY_ACTIVE_FROM"]?></p>

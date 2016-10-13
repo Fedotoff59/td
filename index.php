@@ -4,12 +4,12 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 $APPLICATION->SetTitle("Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
 ?>
 <div class="banner mainpage">
-					<img src="<?=SITE_SERVER_NAME?>/img/index/1.png" alt="" class="current">
-					<img src="<?=SITE_SERVER_NAME?>/img/index/2.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/index/3.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/index/4.png" alt="" style="display:none;">
-					<i class="arrow left"><img src="<?=SITE_SERVER_NAME?>/img/larrow.png" alt=""></i>
-					<i class="arrow right"><img src="<?=SITE_SERVER_NAME?>/img/rarrow.png" alt=""></i>
+					<img src="/img/index/1.png" alt="" class="current">
+					<img src="/img/index/2.png" alt="" style="display:none;">
+					<img src="/img/index/3.png" alt="" style="display:none;">
+					<img src="/img/index/4.png" alt="" style="display:none;">
+					<i class="arrow left"><img src="/img/larrow.png" alt=""></i>
+					<i class="arrow right"><img src="/img/rarrow.png" alt=""></i>
 				</div>
 				<div class="news_block block">
 					<?$APPLICATION->IncludeComponent("bitrix:news.list","news",Array(
@@ -27,7 +27,7 @@ $APPLICATION->SetTitle("Детско-молодёжная общероссийс
 					?>
 				</div>
 				<div class="map block">
-					<img src="<?=SITE_SERVER_NAME?>/img/map.png" alt="">
+					<img src="/img/map.png" alt="">
 					<div><h1>География организации</h1></div>
 					<?$APPLICATION->IncludeComponent("bitrix:news.list","regions_map",Array(
 								"CACHE_TYPE" => "N",
@@ -45,14 +45,14 @@ $APPLICATION->SetTitle("Детско-молодёжная общероссийс
 					);?>
 				</div>
 				<div class="join_us block">
-					<img src="<?=SITE_SERVER_NAME?>/img/left_border.png" alt="" class="left_border">
-					<img src="<?=SITE_SERVER_NAME?>/img/right_border.png" alt="" class="right_border">
+					<img src="/img/left_border.png" alt="" class="left_border">
+					<img src="/img/right_border.png" alt="" class="right_border">
 					<div>
 						<h1>Присоединяйся к нам!</h1>
 					</div>
 					<div class="way">
 						<a href="javascript:void(null);">
-							<img src="<?=SITE_SERVER_NAME?>/img/book.png" alt="">
+							<img src="/img/book.png" alt="">
 						</a>
 						<a href="javascript:void(null);">
 							<h2>Подай заявку на участие<br>в программе «Тетрадка Дружбы»</h2>
@@ -61,7 +61,7 @@ $APPLICATION->SetTitle("Детско-молодёжная общероссийс
 					</div>
 					<div class="way">
 						<a href="/forms/member/">
-							<img src="<?=SITE_SERVER_NAME?>/img/mark.png" alt="">
+							<img src="/img/mark.png" alt="">
 						</a>
 						<a href="/forms/member/">
 							<h2>Стань членом организации</h2>
@@ -70,7 +70,7 @@ $APPLICATION->SetTitle("Детско-молодёжная общероссийс
 					</div>
 					<div class="way">
 						<a href="javascript:void(null);">
-							<img src="<?=SITE_SERVER_NAME?>/img/heart.png" alt="">
+							<img src="/img/heart.png" alt="">
 						</a>
 						<a href="javascript:void(null);">
 							<h2>Стань волонтером</h2>
@@ -107,7 +107,7 @@ $APPLICATION->SetTitle("Детско-молодёжная общероссийс
 								<p>Читать на Life News</p>
 							</a>
 						</div>
-						<img src="<?=SITE_SERVER_NAME?>/img/putin.png" alt="">
+						<img src="/img/putin.png" alt="">
 					</div>
 				</div>
 				<div class="about mini_block">
@@ -116,7 +116,7 @@ $APPLICATION->SetTitle("Детско-молодёжная общероссийс
 					</div>
 					<? /*<h2>«Тетрадка Дружбы» - Всероссийская детская<br>программа, в которой каждый - яркая<br>индивидуальность, открытая творчеству</h2> */?>
 					<div class="watch">
-						<img src="<?=SITE_SERVER_NAME?>/img/watch.png" alt="">
+						<img src="/img/watch.png" alt="">
 					</div>
 					<iframe style="width: 500px; height: 300px; " src="https://www.youtube.com/embed/HJ-mBI-_8xk" frameborder="0" allowfullscreen></iframe>
 				</div>
@@ -140,7 +140,7 @@ $APPLICATION->SetTitle("Детско-молодёжная общероссийс
 					?>
 
 					<div class="int_transfer">
-						<img src="<?=SITE_SERVER_NAME?>/img/globe.png" alt=""><!--
+						<img src="/img/globe.png" alt=""><!--
 						--><div>
 							<h2>Международный обмен</h2>
 							<p>Отправь «Тетрадку Дружбы» в<br>другую страну</p>

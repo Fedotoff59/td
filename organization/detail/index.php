@@ -3,7 +3,7 @@ $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 ?>
 				<div class="map block">
-					<img src="<?=SITE_SERVER_NAME?>/img/map.png" alt="">
+					<img src="/img/map.png" alt="">
 					<div><h1>Выберите регион</h1></div>
 					<?$APPLICATION->IncludeComponent("bitrix:news.list","regions_map",Array(
 					        "IBLOCK_ID" => "9",
@@ -47,38 +47,38 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 					</div>
 					<a href='javascript:void(null);'>
 						<div class="copybook">
-							<img src="<?=SITE_SERVER_NAME?>/img/copybooks/class.png" alt="">
+							<img src="/img/copybooks/class.png" alt="">
 							<h2>«Дружный класс»</h2>
 							<p>7«Б» класс , МБОУ «ООШ №1», г. Нытва</p>
 						</div>
 					</a>
 					<a href='javascript:void(null);'>
 						<div class="copybook">
-							<img src="<?=SITE_SERVER_NAME?>/img/copybooks/world.png" alt="">
+							<img src="/img/copybooks/world.png" alt="">
 							<h2>«Мой мир»</h2>
 							<p>Ширинкин Дмитрий, 1 «А» класс, МАОУ «СОШ №134»</p>
 						</div>
 					</a>
 					<a href='javascript:void(null);'>
 						<div class="copybook">
-							<img src="<?=SITE_SERVER_NAME?>/img/copybooks/tradition.png" alt="">
+							<img src="/img/copybooks/tradition.png" alt="">
 							<h2>«Продолжаю традицию»</h2>
 							<p>Девятова Евгения, 9 «Б» класс, МАОУ «Гимназия №5»</p>
 						</div>
 					</a>
 					<a href='javascript:void(null);'>
 						<div class="copybook">
-							<img src="<?=SITE_SERVER_NAME?>/img/copybooks/fire.png" alt="">
+							<img src="/img/copybooks/fire.png" alt="">
 							<h2>«Олимпийский огонь»</h2>
 							<p>Киселёва Виктория, 5«А» класс, МАОУ «Гимназия №33»</p>
 						</div>
 					</a>
-					<?/*<div class="add"><a href="http://"><img src="<?=SITE_SERVER_NAME?>/img/add.png" alt=""></a></div>*/?>
+					<?/*<div class="add"><a href="http://"><img src="/img/add.png" alt=""></a></div>*/?>
 				</div>
 				<?// TODO: Оформить в виде привязки к региону?>
 				<div class="news_block block">
-					<i class="arrow left"><img src="<?=SITE_SERVER_NAME?>/img/larrow_gray.png" alt=""></i>
-					<i class="arrow right"><img src="<?=SITE_SERVER_NAME?>/img/rarrow_gray.png" alt=""></i>
+					<i class="arrow left"><img src="/img/larrow_gray.png" alt=""></i>
+					<i class="arrow right"><img src="/img/rarrow_gray.png" alt=""></i>
 					<?$APPLICATION->IncludeComponent("bitrix:news.list","news",Array(
 					        "IBLOCK_ID" => "21",
 					        "NEWS_COUNT" => "3",

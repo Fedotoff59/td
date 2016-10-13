@@ -3,12 +3,12 @@
 			<div class="footer">
 				<div class="contacts">
 					<p class="organisation">Центральное отделение Детско-молодёжной общероссийской общественной организации <br />«Тетрадка Дружбы»</p>
-					<p><span><img src="<?=SITE_SERVER_NAME?>/img/location.png" alt=""></span> 614068 Россия, г. Пермь, ул. Петропавловская, 185-311</p>
-					<p><span><img src="<?=SITE_SERVER_NAME?>/img/phone.png" alt=""></span> +7(495) 24-12-697</p>
-					<p><span><img src="<?=SITE_SERVER_NAME?>/img/mail.png" alt=""></span> info@tetradka.org.ru</p>
+					<p><span><img src="/img/location.png" alt=""></span> 614068 Россия, г. Пермь, ул. Петропавловская, 185-311</p>
+					<p><span><img src="/img/phone.png" alt=""></span> +7(495) 24-12-697</p>
+					<p><span><img src="/img/mail.png" alt=""></span> info@tetradka.org.ru</p>
 				</div><!--
 				--><div class="socials">
-					<img src="<?=SITE_SERVER_NAME?>/img/socials.png" alt="">
+					<img src="/img/socials.png" alt="">
 				</div>
 
 			</div>

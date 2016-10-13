@@ -4,24 +4,24 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 $APPLICATION->SetTitle("О нас - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
 ?>
 				<div class="banner about">
-					<img src="<?=SITE_SERVER_NAME?>/img/about_us/1.png" alt="" class="current">
-					<img src="<?=SITE_SERVER_NAME?>/img/about_us/2.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/about_us/3.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/about_us/4.png" alt="" style="display:none;">
-					<i class="arrow left"><img src="<?=SITE_SERVER_NAME?>/img/larrow.png" alt=""></i>
-					<i class="arrow right"><img src="<?=SITE_SERVER_NAME?>/img/rarrow.png" alt=""></i>
+					<img src="/img/about_us/1.png" alt="" class="current">
+					<img src="/img/about_us/2.png" alt="" style="display:none;">
+					<img src="/img/about_us/3.png" alt="" style="display:none;">
+					<img src="/img/about_us/4.png" alt="" style="display:none;">
+					<i class="arrow left"><img src="/img/larrow.png" alt=""></i>
+					<i class="arrow right"><img src="/img/rarrow.png" alt=""></i>
 				</div>
 				<div class="banner history">
-					<img src="<?=SITE_SERVER_NAME?>/img/story/1.png" alt="" class="current">
-					<img src="<?=SITE_SERVER_NAME?>/img/story/2.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/story/3.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/story/4.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/story/5.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/story/6.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/story/7.png" alt="" style="display:none;">
-					<img src="<?=SITE_SERVER_NAME?>/img/story/8.png" alt="" style="display:none;">
-					<i class="arrow left"><img src="<?=SITE_SERVER_NAME?>/img/larrow.png" alt=""></i>
-					<i class="arrow right"><img src="<?=SITE_SERVER_NAME?>/img/rarrow.png" alt=""></i>
+					<img src="/img/story/1.png" alt="" class="current">
+					<img src="/img/story/2.png" alt="" style="display:none;">
+					<img src="/img/story/3.png" alt="" style="display:none;">
+					<img src="/img/story/4.png" alt="" style="display:none;">
+					<img src="/img/story/5.png" alt="" style="display:none;">
+					<img src="/img/story/6.png" alt="" style="display:none;">
+					<img src="/img/story/7.png" alt="" style="display:none;">
+					<img src="/img/story/8.png" alt="" style="display:none;">
+					<i class="arrow left"><img src="/img/larrow.png" alt=""></i>
+					<i class="arrow right"><img src="/img/rarrow.png" alt=""></i>
 				</div>
 				<div class="direction block">
 					<div><h1>Правление организации</h1></div>

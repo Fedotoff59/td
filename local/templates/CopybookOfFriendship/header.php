@@ -5,10 +5,10 @@ IncludeTemplateLangFile(__FILE__);
 <html>
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<link rel="stylesheet" type="text/css" href="<?=SITE_SERVER_NAME.SITE_TEMPLATE_PATH?>/css/style.css">
+		<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/css/style.css">
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script type="text/javascript" src="<?=SITE_SERVER_NAME.SITE_TEMPLATE_PATH?>/scripts/script.js"></script>
+		<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/scripts/script.js"></script>
 		<title><?$APPLICATION->ShowTitle()?></title>
 		<?$APPLICATION->ShowHead();?>
 	</head>
@@ -26,13 +26,13 @@ IncludeTemplateLangFile(__FILE__);
 
 					</div>
 					<div class="logo">
-						<a href="<?=SITE_SERVER_NAME?>/"><img src="<?=SITE_SERVER_NAME?>/img/Logo.png"/></a>
+						<a href="/"><img src="/img/Logo.png"/></a>
 					</div>
 					<ul class="menu">
-						<li><a href="<?=SITE_SERVER_NAME?>/about">о нас</a></li>
-						<li><a href="<?=SITE_SERVER_NAME?>/organization">отделения</a></li>
-						<li><a href="<?=SITE_SERVER_NAME?>/joinus">присоединиться</a></li>
-						<li><a href="<?=SITE_SERVER_NAME?>/projects">проекты</a></li>
+						<li><a href="/about/">о нас</a></li>
+						<li><a href="/organization/">отделения</a></li>
+						<li><a href="/joinus/">присоединиться</a></li>
+						<li><a href="/projects/">проекты</a></li>
 						<?/*<li><a href="<?=SITE_SERVER_NAME?>/press">пресс-центр</a></li>*/?>
 					</ul>
 				</div>
