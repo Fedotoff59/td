@@ -1414,3 +1414,18 @@ div.bx-auth {max-width:600px; margin-top:16px; margin-bottom:24px; display: inli
 .b-comp p {
 	text-align: justify;
 }
+
+hr.note {
+	width: 200px;
+	height: 1px;
+	color: #000;
+	margin-top: 20px;
+	border: none;
+	background-color: #000;
+	text-align: left;
+}
+
+.notes {
+	font-size: 15px;
+	margin: 20px;
+}
