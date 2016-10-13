@@ -45,7 +45,7 @@ $this->setFrameMode(true);
 	CModule::IncludeModule("fileman");
 	CMedialib::Init();
 	// 4 - is id of doc's collection
-	$arRes = CMedialibItem::GetList(array('arCollections' => array("4"), 'ID' => Array(4)));
+	$arRes = CMedialibItem::GetList(array('arCollections' => array("4"), 'ID' => Array(13)));
 	$doc_path = $arRes[0]['PATH'];
 	$programm_path = $arRes[1]['PATH'];
 ?>
