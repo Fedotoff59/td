@@ -1394,15 +1394,23 @@ a{
 
 div.bx-auth {max-width:600px; margin-top:16px; margin-bottom:24px; display: inline-block; font-family: "PT Sans"; text-align: left}
 
-.sdg-list li {
+.sdg-list, .comp-list li {
 	list-style-type: none;
 }
 
-.sdg-list li img {
+.sdg-list, .comp-list li img {
 	width: 2%;
 	margin-right: 1%;
 }
 
 .w60p {
 	width: 60%;
+}
+
+.b-comp {
+	font-size: 20px;
+}
+
+.b-comp p {
+	text-align: justify;
 }
