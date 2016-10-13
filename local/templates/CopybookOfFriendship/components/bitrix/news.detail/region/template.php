@@ -44,10 +44,9 @@ $this->setFrameMode(true);
 	/* Get path of doc from medialibrary */
 	CModule::IncludeModule("fileman");
 	CMedialib::Init();
-	// 4 - is id of doc's collection
-	$arRes = CMedialibItem::GetList(array('arCollections' => array("4"), 'ID' => Array(13)));
+	// 7 - is id of doc's collection
+	$arRes = CMedialibItem::GetList(array('arCollections' => array("7"), 'ID' => Array(13)));
 	$doc_path = $arRes[0]['PATH'];
-	$programm_path = $arRes[1]['PATH'];
 ?>
 <div class="b_region_promo b_region_promo--blue">
 	<div class="b_region_promo__holder">
