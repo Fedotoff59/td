@@ -1,7 +1,7 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
-$APPLICATION->SetTitle("Конкурс видеороликов «Самый-самый детства мир» - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
+$APPLICATION->SetTitle("On-line конкурсы - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»");
 ?>
         <div class="comp_page  block">
             <img src="/img/left_border.png" alt="" class="left_border">

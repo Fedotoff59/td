@@ -33,6 +33,7 @@ IncludeTemplateLangFile(__FILE__);
 						<li><a href="/organization/">отделения</a></li>
 						<li><a href="/joinus/">присоединиться</a></li>
 						<li><a href="/projects/">проекты</a></li>
+						<li><a href="/interactive/competitions/" style="color: #e54c7c">конкурсы</a></li>
 						<?/*<li><a href="<?=SITE_SERVER_NAME?>/press">пресс-центр</a></li>*/?>
 					</ul>
 				</div>
