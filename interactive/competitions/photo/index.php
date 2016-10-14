@@ -48,12 +48,13 @@ $APPLICATION->SetTitle("Online-фотоконкурс «Мой любимый к
             <p>&nbsp;</p>
             <p>30 авторов  лучших фотографий будут отмечены специальными дипломами, а также получат афиши с актерами Катериной Шпицей и Антоном Богдановым с их личными автографами.</p>
             <p>&nbsp;</p>
-            <p style="text-align: center; font-size: 30px"><a style="color: #e34c7c" href="/personal/interactive/competitions/photo/">Принять участие в конкурсе!</a></p>
+            <p style="text-align: center; font-size: 30px"><a style="color: #e34c7c" href="/personal/interactive/competitions/photo/">Принять участие в конкурсе!</a><sup id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></p>
             <hr class="note" />
             <ol class="notes">
                 <li id="cite_note-1"><a href="#cite_ref-1">&uarr;</a>&nbsp;«Белое солнце пустыни», 1970;</li>
                 <li id="cite_note-2"><a href="#cite_ref-2">&uarr;</a>&nbsp;«Иван Васильевич меняет профессию», 1973;</li>
-                <li id="cite_note-3"><a href="#cite_ref-3">&uarr;</a>&nbsp;«Бриллиантовая рука», 1969.</li>
+                <li id="cite_note-3"><a href="#cite_ref-3">&uarr;</a>&nbsp;«Бриллиантовая рука», 1969;</li>
+                <li id="cite_note-4"><a href="#cite_ref-4">&uarr;</a>&nbsp;Для участия необходима регистрация на портале.</li>
             </ol>
         </div>
     </div>
