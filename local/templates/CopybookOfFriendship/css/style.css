@@ -1304,6 +1304,10 @@ a{
 	height: 1200px;
 }
 
+.googleform-block--h1600 {
+	height: 1600px;
+}
+
 .googleform-holder {
 	height: 800px;
 	overflow-x: visible;
@@ -1314,6 +1318,10 @@ a{
 
 .googleform-holder--h1200 {
 	height: 1200px;
+}
+
+.googleform-holder--h1600 {
+	height: 1600px;
 }
 
 .googleform-container {
@@ -1365,6 +1373,10 @@ a{
 
 .b-profile h1 {
 	border-color: #aadd6d;
+}
+
+.b-profile p {
+	font-family: "PT Sans";
 }
 
 .b-static {
