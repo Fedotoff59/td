@@ -290,26 +290,26 @@ a{
 }
 
 /*join us*/
-.join_us{
+.join_us, .comp_page{
 	background-color: #fafafa;
 }
-.join_us div{
+.join_us div, .comp_page div{
 	margin: 30px auto;
 }
-.join_us .right_border, .join_us .left_border{
+.join_us .right_border, .join_us .left_border, .comp_page .right_border, .comp_page .left_border{
 	height: 100%;
 	position: absolute;
 }
-.join_us .right_border{
+.join_us .right_border, .comp_page .right_border{
 	right: 0px;
 }
-.join_us .left_border{
+.join_us .left_border, .comp_page .left_border{
 	left: 0px;
 }
-.join_us h1{
+.join_us h1, .comp_page h1{
 	border-color: #e54c7c;
 }
-.join_us .way{
+.join_us .way, .comp_page .comp{
 	vertical-align: top;
 	display: inline-block;
 	width: 30%;
@@ -318,10 +318,10 @@ a{
 	*display: inline;
 	_height: 250px;
 }
-.join_us .way img{
+.join_us .way img, .comp_page .comp img{
 	width: 40%;
 }
-.join_us .way p{
+.join_us .way p, .comp_page .comp p{
 	font-family: OpenSansLight;
 	font-size: 15px;
 }
