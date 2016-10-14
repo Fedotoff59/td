@@ -56,6 +56,16 @@ $APPLICATION->SetTitle("Online-фотоконкурс «Мой любимый к
                 <li id="cite_note-3"><a href="#cite_ref-3">&uarr;</a>&nbsp;«Бриллиантовая рука», 1969;</li>
                 <li id="cite_note-4"><a href="#cite_ref-4">&uarr;</a>&nbsp;Для участия необходима регистрация на портале.</li>
             </ol>
+            <?$APPLICATION->IncludeComponent("bitrix:main.share","",Array(
+                    "HIDE" => "N",
+                    "HANDLERS" => array
+                    ("facebook","twitter","vk"),
+                    "PAGE_URL" => "/interactive/competitions/photo/",
+                    "PAGE_TITLE" => "Online-фотоконкурс «Мой любимый кинокадр» - Детско-молодёжная общероссийская общественная организация «Тетрадка Дружбы»",
+                    "SHORTEN_URL_LOGIN" => "o_2npp5e0pbi",
+                    "SHORTEN_URL_KEY" => "R_4e4edae9942642f39e125f4cf0779355",
+                )
+            );?>
         </div>
     </div>
 

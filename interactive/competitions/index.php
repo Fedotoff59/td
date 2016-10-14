@@ -15,6 +15,7 @@ $APPLICATION->SetTitle("On-line конкурсы - Детско-молодёжн
                 </a>
                 <a href="/interactive/competitions/video/">
                     <h2>Самый-самый детства мир</h2>
+                    <p>15.10-15.12.2016</p>
                 </a>
             </div>
             <div class="comp">
@@ -23,6 +24,7 @@ $APPLICATION->SetTitle("On-line конкурсы - Детско-молодёжн
                 </a>
                 <a href="/interactive/competitions/photo/">
                     <h2>Мой любимый кинокадр</h2>
+                    <p>15.10-15.12.2016</p>
                 </a>
             </div>
         </div>
