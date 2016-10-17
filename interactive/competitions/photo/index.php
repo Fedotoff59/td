@@ -12,7 +12,7 @@ $APPLICATION->SetTitle("Online-фотоконкурс «Мой любимый к
                 , создать вместе с инженером Шуриком машину времени<sup id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>, обнаружить на своей руке гипс с бриллиантами как Семен Семенович Горбунков<sup id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>. Мы хотим, чтобы мечты сбывались! Сегодня у тебя есть отличная возможность перевоплотиться в любимого киногероя и рассказать об этом друзьям!
             </p>
             <p>&nbsp;</p>
-            <img style="width: 100%" src="https://pimg.mycdn.me/getImage?disableStub=true&type=VIDEO_S_720&url=http%3A%2F%2Fvdp.mycdn.me%2FgetImage%3Fid%3D62319102570%26idx%3D8%26thumbType%3D32&signatureToken=x1G-ArhFpslopFqhBNjbGw">
+            <img style="width: 100%" src="/upload/interactive/competitions/p_145298.jpg">
             <p>В рамках мероприятий организации «Тетрадка Дружбы» <strong>с 15 октября по 20 декабря 2016 года</strong> пройдет online-фотоконкурс «Мой любимый кинокадр». Конкурс посвящен Году российского кино.
             </p>
             <p>&nbsp;</p>
