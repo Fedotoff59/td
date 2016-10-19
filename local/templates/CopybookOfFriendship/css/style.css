@@ -1308,6 +1308,10 @@ a{
 	height: 1600px;
 }
 
+.googleform-block--h2000 {
+	height: 2000px;
+}
+
 .googleform-holder {
 	height: 800px;
 	overflow-x: visible;
@@ -1322,6 +1326,10 @@ a{
 
 .googleform-holder--h1600 {
 	height: 1600px;
+}
+
+.googleform-holder--h2000 {
+	height: 2000px;
 }
 
 .googleform-container {
