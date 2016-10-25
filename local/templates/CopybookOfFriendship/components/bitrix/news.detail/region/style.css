@@ -30,6 +30,11 @@
     color: inherit;
     display: inline-block;
     vertical-align: bottom;
+    line-height: 36pt;
+}
+
+.b_region_promo__caption--sub {
+    font-size: 20pt;
 }
 
 .b_text-color-w {

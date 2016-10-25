@@ -51,7 +51,9 @@ $this->setFrameMode(true);
 <div class="b_region_promo b_region_promo--blue">
 	<div class="b_region_promo__holder">
 		<div class="b_region_promo__caption b_text-color-w">
-			<span>Краевой Спортивный <br />праздник</span>
+			<span>Краевой Спортивный праздник<br />
+				<div class="b_region_promo__caption--sub">Прием заявок от города Перми закрыт</div>
+			</span>
 			<div class="b_region_promo__date">
 				27 октября 2016
 			</div>
