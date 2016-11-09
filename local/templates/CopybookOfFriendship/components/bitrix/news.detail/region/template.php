@@ -45,20 +45,20 @@ $this->setFrameMode(true);
 	CModule::IncludeModule("fileman");
 	CMedialib::Init();
 	// 7 - is id of doc's collection
-	$arRes = CMedialibItem::GetList(array('arCollections' => array("7"), 'ID' => Array(13)));
+	$arRes = CMedialibItem::GetList(array('arCollections' => array("8"), 'ID' => Array(14)));
 	$doc_path = $arRes[0]['PATH'];
 ?>
-<div class="b_region_promo b_region_promo--blue">
+<div class="b_region_promo b_region_promo--pink">
 	<div class="b_region_promo__holder">
 		<div class="b_region_promo__caption b_text-color-w">
-			<span>Краевой Спортивный праздник<br />
-				<div class="b_region_promo__caption--sub">Прием заявок от города Перми закрыт</div>
+			<span>Краевой Интеллектуальный турнир<br />
+
 			</span>
 			<div class="b_region_promo__date">
-				27 октября 2016
+				19 ноября 2016
 			</div>
 			<div class="b_region_promo__place">
-				СК им.Сухарева
+				Дворец Молодежи г.Перми
 			</div>
 		</div>
 		<div class="b_region_promo__links">
@@ -66,7 +66,7 @@ $this->setFrameMode(true);
 				<a href="<?=$doc_path?>">Cкачать положение</a>
 			</div>
 			<div class="b_region_promo__action">
-				<a href="/forms/sport/">Подать заявку</a>
+				<a href="/forms/it/">Подать заявку</a>
 			</div>
 		</div>
 	</div>

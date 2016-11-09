@@ -11,6 +11,10 @@
     background: #0084c9;
 }
 
+.b_region_promo--pink {
+    background: #e54c7c;
+}
+
 .b_region_promo__holder {
     height: 225px;
     line-height: 40pt;
