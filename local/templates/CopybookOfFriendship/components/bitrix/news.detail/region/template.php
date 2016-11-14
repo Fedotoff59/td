@@ -52,7 +52,7 @@ $this->setFrameMode(true);
 	<div class="b_region_promo__holder">
 		<div class="b_region_promo__caption b_text-color-w">
 			<span>Краевой Интеллектуальный турнир<br />
-
+ 				<span style="font-size:0.7em">Прием заявок от города Перми закрыт</span>
 			</span>
 			<div class="b_region_promo__date">
 				19 ноября 2016
