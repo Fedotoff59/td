@@ -92,9 +92,9 @@ $APPLICATION->SetTitle("Проекты - Детско-молодёжная об�
 			сохранению морских экосистем и экосистем суши.</p>
 		<div>
 			<ul>
-				<li class="label"><a href="#"><p>Пресс-релиз</p></a></li>
-				<li class="label"><a href="#"><p>Положение</p></a></li>
-				<li class="label"><a href="#"><p>Заявка на участие</p></a></li>
+				<li class="label"><a href="/upload/medialibrary/dc9/dc940a4f46e3d7f9ef15373dfa7d2b67.pdf"><p>Пресс-релиз</p></a></li>
+				<li class="label"><a href="/upload/medialibrary/8a5/8a55816b24dd973304084710579a4d84.pdf"><p>Положение</p></a></li>
+				<li class="label"><a href="/forms/kraeved/"><p>Заявка на участие</p></a></li>
 			</ul>
 		</div>
 	</div>
