@@ -48,6 +48,7 @@ $this->setFrameMode(true);
 	$arRes = CMedialibItem::GetList(array('arCollections' => array("8"), 'ID' => Array(14)));
 	$doc_path = $arRes[0]['PATH'];
 ?>
+<?/*
 <div class="b_region_promo b_region_promo--pink">
 	<div class="b_region_promo__holder">
 		<div class="b_region_promo__caption b_text-color-w">
@@ -71,3 +72,4 @@ $this->setFrameMode(true);
 		</div>
 	</div>
 </div>
+*/?>
